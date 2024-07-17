@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url(https://cdnweb01.wikitree.co.kr/webdata/editor/202012/07/img_20201207160534_389deab9.webp);
+}
+#johangjae1{
+    box-sizing: border-box;
+    width:400px;
+    height:400px;
+    border-radius: 250px;
+    transition: transform 0.5s;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+#johangjae1.bounce{
+    animation: bounce 0.5s;
+}
+.game-container{
+    text-align: center;
+    font-size: 50px;
+}
+#score.bounce{
+    animation: bounce 0.5s
+}
+#score{
+    transition: transform 0.5s;
+}
+h1{
+    color: red;
+    font-size: 50px;
+}
+@font-face {
+    font-family: 'HSSanTokki20-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'HSSanTokki20-Regular';
+}
+#score-container{
+    font-family: 'HSSanTokki20-Regular';
+    color: white;
+}
+    
